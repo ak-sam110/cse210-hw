@@ -26,7 +26,7 @@ class Program
                 {
                     Console.WriteLine("HIGHER");
                 }
-
+ 
                 else if (magicNumber < guess)
                 {
                     Console.WriteLine("LOWER");
