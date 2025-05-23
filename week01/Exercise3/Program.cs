@@ -8,8 +8,7 @@ class Program
         int magicNumber = int.Parse(Console.ReadLine());
 
         int guess = -1;
-
-        do
+            do
         {
             {
                 Console.Write("What is your guess?");
@@ -35,7 +34,6 @@ class Program
                 {
                     Console.WriteLine("AWESOME! YOU GUESSED RIGHT");
                 }
-
             }
         }
             while
