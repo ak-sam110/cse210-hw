@@ -11,32 +11,35 @@ class Program
 
         do
         {
-            Console.Write("What is your guess?");
-            guess = int.Parse(Console.ReadLine());
-        }
+            {
+                Console.Write("What is your guess?");
+                guess = int.Parse(Console.ReadLine());
+            }
 
-        while
-            (guess != magicNumber);
-
-        if (magicNumber > guess)
-        {
-            Console.Write("what is your guess?");
-            guess = int.Parse(Console.ReadLine());
 
             if (magicNumber > guess)
             {
-                Console.WriteLine("HIGHER");
-            }
+                Console.Write("what is your guess?");
+                guess = int.Parse(Console.ReadLine());
 
-            else if (magicNumber < guess)
-            {
-                Console.WriteLine("LOWER");
-            }
-            else
-            {
-                Console.WriteLine("AWESOME! YOU GUESSED RIGHT");
-            }
+                if (magicNumber > guess)
+                {
+                    Console.WriteLine("HIGHER");
+                }
 
+                else if (magicNumber < guess)
+                {
+                    Console.WriteLine("LOWER");
+                }
+                else
+                {
+                    Console.WriteLine("AWESOME! YOU GUESSED RIGHT");
+                }
+
+            }
         }
+            while
+            (guess != magicNumber);
+
     }
 }
