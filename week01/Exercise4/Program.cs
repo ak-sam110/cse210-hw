@@ -38,6 +38,7 @@ class Program
             Console.WriteLine($"Maximum:{max}");
             int smallestPositive = int.MaxValue;
             foreach(int num in numbers)
+        {
             if(num > 0 && num < smallestPositive)
             {
             smallestPositive=num;
