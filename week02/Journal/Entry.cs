@@ -1,18 +1,11 @@
 //Journal1App/
 using System;
-public class Class1
-{
-    JournalApp/
-│
-├── Program.cs
-├── Journal.cs
-├── Entry.cs
-├── PromptGenerator.cs
-}
+public class Class;
 
 //Entry.cs
 
 public class Entry
+
 {
     public string Date { get; set; }
     public string Prompt { get; set; }

@@ -1,7 +1,7 @@
 
 //Program.cs
 using System;
-class Journal
+public class Journal
 {
     static void Main(string[] args)
     {
